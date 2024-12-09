@@ -3,7 +3,7 @@
 ## What is CSRF?
 Cross-Site Request Forgery (CSRF) tricks authenticated users into performing unintended actions on a website without their consent. For example, an attacker can create a malicious link that performs actions on behalf of the victim.
 
-## Exploitation Example
+## Exploitation Example 
 ### Vulnerable Form:
 ```html
 <form action="http://example.com/transfer" method="POST">
